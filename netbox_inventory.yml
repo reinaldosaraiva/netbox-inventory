@@ -1,7 +1,12 @@
 plugin: netbox.netbox.nb_inventory
 api_endpoint: http://177.93.133.239:8000
 validate_certs: false
+config_context: true
 group_by:
   - device_roles
   - sites
   - is_virtual
+device_query_filters:
+  - has_primary_ip: 'true'
+vm_query_filters:
+  - has_primary_ip: 'true'
