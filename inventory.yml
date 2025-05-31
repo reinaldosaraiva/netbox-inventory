@@ -10,3 +10,4 @@ device_query_filters:
   - has_primary_ip: 'true'
 vm_query_filters:
   - has_primary_ip: 'true'
+transform_name: true
