@@ -1,5 +1,5 @@
 plugin: netbox.netbox.nb_inventory
-api_endpoint: https://netbox.nevoasolutions.com.b
+api_endpoint: https://netbox.nevoasolutions.com.br
 validate_certs: false
 config_context: true
 group_by:
