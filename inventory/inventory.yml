@@ -1,5 +1,5 @@
 plugin: netbox.netbox.nb_inventory
-api_endpoint: http://177.93.132.48:8000
+api_endpoint: https://netboxhomologacao.etipi.pi.gov.br"
 validate_certs: false
 config_context: true
 group_by:
